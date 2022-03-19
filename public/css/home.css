@@ -1,0 +1,94 @@
+/* header */
+header.cabecera {
+    padding-bottom: 30px;
+}
+
+header.cabecera img.logo {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+header.cabecera {
+    background-color: var(--colorAmarillo);
+}
+
+header.cabecera #compra-texto{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header.cabecera a {
+    margin-left: 40px;
+}
+
+header.cabecera a.separa{
+    margin-bottom: 15px;
+    display: block;
+}
+
+header.cabecera div.burger-menu{
+    text-align: center;
+    padding-top: 30px;
+}
+
+header.cabecera span.burger-menu{
+    border-radius: 5px;
+    color: white;
+    background-color: var(--colorCeleste);
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+header.cabecera div#busqueda{
+    padding-left: 15px;
+}
+
+/* main */
+section.home div.imagenes-articulos{
+    text-align: center;
+}
+
+section.home img{
+    padding-top: 50px;
+
+}
+
+section.home h4.titular {
+    font-size: 24px;
+    
+}
+
+section.home p.precio {
+    font-size: 18px;
+    
+}
+
+section.home p.descuento {
+    font-size: 16px;
+    
+}
+
+section.home p.descripcion{
+    font-size: 16px;
+}
+
+/* footer */
+
+.home p.cuerpoTexto {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: var(--colorGrisOscuro);
+}
+
+#derechos{
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: var(--colorGrisOscuro);
+}
+

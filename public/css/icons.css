@@ -1,0 +1,7 @@
+footer.home div.icono-footer{
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: var(--colorCeleste);
+    font-size: 2em;
+    text-align: center;
+}
