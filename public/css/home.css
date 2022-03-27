@@ -1,92 +1,81 @@
 /* header */
-header.cabecera {
+.home__header {
     padding-bottom: 30px;
+    background-color: var(--colorAmarillo);
 }
 
-header.cabecera img.logo {
+.home__logo {
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
-header.cabecera {
-    background-color: var(--colorAmarillo);
-}
-
-header.cabecera #compra-texto{
+.home__buy-text{
     font-size: 12px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-header.cabecera a {
+.home__header a {
     margin-left: 40px;
 }
 
-header.cabecera a.separa{
+.home__separar-ayuda {
     margin-bottom: 15px;
     display: block;
 }
 
-header.cabecera div.burger-menu{
+.home__burger-menu{
     text-align: center;
     padding-top: 30px;
 }
 
-header.cabecera span.burger-menu{
+.home__burger-menu-button{
     border-radius: 5px;
     color: white;
     background-color: var(--colorCeleste);
     padding: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
+    border: none;
 }
 
-header.cabecera div#busqueda{
+.home__search{
     padding-left: 15px;
 }
 
 /* main */
-section.home div.imagenes-articulos{
-    text-align: center;
-}
 
-section.home img{
+.home__articles-img{
+    display: block;
+    margin: auto;
     padding-top: 50px;
-
 }
 
-section.home h4.titular {
-    font-size: 24px;
-    
+
+.home__section-h4 {
+    font-size: var(--fuenteTamaño-24);
 }
 
-section.home p.precio {
-    font-size: 18px;
-    
+.home__article--font--price {
+    font-size: var(--fuenteTamaño-18);
 }
 
-section.home p.descuento {
-    font-size: 16px;
-    
-}
-
-section.home p.descripcion{
-    font-size: 16px;
+.home__article--font{
+    font-size: var(--fuenteTamaño-16);
 }
 
 /* footer */
 
-.home p.cuerpoTexto {
-    font-size: 12px;
+.home__footer__text {
+    font-size: var(--fuenteTamaño-12);
     text-align: center;
     padding-bottom: 20px;
     color: var(--colorGrisOscuro);
 }
-
-#derechos{
-    font-size: 12px;
+.home__copyright{
+    font-size: var(--fuenteTamaño-12);
     margin-bottom: 20px;
     margin-left: 20px;
     color: var(--colorGrisOscuro);
