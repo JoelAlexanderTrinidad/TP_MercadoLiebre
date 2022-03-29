@@ -130,13 +130,19 @@ footer.home{
 }
 
 /* mobile */
-@media (max-width: 361px){
+@media (max-width: 360px){
     .home__article--font {
         display: none;
     }
+
     .home__nav{
         display: none;
     }
+
+    .home__banner img{
+        display: none;
+    }
+    
 }
 
 /* tablet y desktop */
