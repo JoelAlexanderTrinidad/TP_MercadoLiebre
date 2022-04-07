@@ -13,15 +13,17 @@
       <!-- ############################ HEADER ############################ -->
     <header class="home__header" >
       <!-- recomendado las imágenes en un div -->
-      <div class="home__div-logo">
-        <img class="home__logo" src="/images/logo-mercado-liebre.svg" width="150px" alt="logo">
-      </div>
-      <div>
-        <div class="home__search">
-          <input type="text" placeholder="Buscar productos, marcas">
-          <i class="fas fa-search"></i>
+      <nav class="home__nav-buscador">        
+        <div class="home__logo">
+          <img  src="/images/logo-mercado-liebre.svg" width="150px" alt="logo">
         </div>
-      </div>
+        <div class="home__search"> <!-- el contendor en position relative -->
+
+            <input type="text" placeholder="Buscar productos, marcas">
+            <i class="fas fa-search"></i> <!-- en position absolute -->
+          
+        </div>
+      </nav>
       <p class="home__buy-text"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
       <!-- nav para las dos ul -->
       <nav class="home__nav">
