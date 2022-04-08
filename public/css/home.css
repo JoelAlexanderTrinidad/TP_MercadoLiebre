@@ -2,32 +2,52 @@
 .home__header {
     padding-bottom: 30px;
     background-color: var(--colorAmarillo);
+    display: flex;
+    flex-wrap: wrap;
 }
+
+/* .home__header-main-div{
+    display: flex;
+} */
 
 .home__logo {
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 10px;
+    border: 1px solid rgb(0, 116, 15);
 }
 
 .home__search{
-    padding-left: 15px;
+    border: 1px solid red;
+    width: 160px;
+}
+.home__header-div-logo{
+    border: 1px solid red;
+    
+    width: 187px;
+}
+
+.home__search input{
+    width: 100%;
 }
 
 .home__buy-text{
     font-size: 12px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 63%;
+    border: 1px solid red;
 }
 
-.home__header a {
-    margin-left: 40px;
+.home__nav{
+    border: 1px solid blueviolet;
 }
 
-.home__separar-ayuda {
-    margin-bottom: 15px;
-    display: block;
+.home__nav-venta{
+    border: 1px solid red;
+}
+
+.home__nav-user{
+    border: 1px solid red;
 }
 
 .home__burger-menu{
@@ -89,15 +109,6 @@ main section article i{
     margin-top: 10px;
 }
 
-/* .home__circulo__logo{
-    background-color: #ffffff;
-    border: 1px solid var(--colorVerde);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    padding-bottom: 25px;
-} */
-
 .home__circulo__logo i{
     color: var(--colorVerde);
 }
@@ -146,7 +157,7 @@ footer.home{
 }
 
 /* mobile */
-@media (max-width: 360px){
+@media (max-width: 375px){
     .home__article--font {
         display: none;
     }
@@ -162,7 +173,7 @@ footer.home{
 }
  
 /* tablet y desktop */
- @media (min-width: 361px){
+ @media (min-width: 376px){
     .home__articles{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
@@ -170,4 +181,4 @@ footer.home{
         display: none;
     }
     
-} 
+}

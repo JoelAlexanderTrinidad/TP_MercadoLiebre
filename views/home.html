@@ -13,19 +13,21 @@
       <!-- ############################ HEADER ############################ -->
     <header class="home__header" >
       <!-- recomendado las imágenes en un div -->
-      <div>
-        <img class="home__logo" src="/images/logo-mercado-liebre.svg" width="150px" alt="logo">
-      </div>
-      <div class="home__search">
-        <div>
-          <input type="text" placeholder="Buscar productos, marcas">
+      <div class="home__header-main-div">
+        <div class="home__header-div-logo">
+          <img class="home__logo" src="/images/logo-mercado-liebre.svg" alt="logo">
         </div>
-        <button><i class="fas fa-search"></i></button>
+        <div class="home__search">
+          <div>
+            <input type="text" placeholder="Buscar productos, marcas">
+          </div>
+          <button><i class="fas fa-search"></i></button>
+        </div>
       </div>
       <p class="home__buy-text"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
       <!-- nav para las dos ul -->
       <nav class="home__nav">
-        <ul>
+        <ul class="home__nav-venta">
           
           <li><a href="">Ofertas</a></li>
           <li><a href="">Tiendas oficiales</a></li>
@@ -34,7 +36,7 @@
         
         </ul>
         
-        <ul>
+        <ul class="home__nav-user">
           <li><a href="">Creá tu cuenta <i class="fas fa-id-card"></i></a></li>
           <li><a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
           <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
