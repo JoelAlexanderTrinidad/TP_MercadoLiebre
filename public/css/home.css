@@ -1,46 +1,72 @@
 /* header */
 .home__header {
-    padding-bottom: 30px;
+    
     background-color: var(--colorAmarillo);
     display: flex;
     flex-wrap: wrap;
 }
 
-/* .home__header-main-div{
+.home__header-main-div{
     display: flex;
-} */
-
+    padding: 20px 0;
+}
 .home__logo {
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    border: 1px solid rgb(0, 116, 15);
+    width: 125px;
+   /*  padding-left: 30px; */
+    /* padding-top: 30px; */
+    /* padding-bottom: 10px; */
+    /* border: 1px solid rgb(0, 116, 15); */
+}
+
+.home__search div{
+    width: 140px;
+    margin: 0 auto;
 }
 
 .home__search{
-    border: 1px solid red;
-    width: 160px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 50vw;
 }
+
 .home__header-div-logo{
-    border: 1px solid red;
-    
-    width: 187px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 50vw;
 }
 
 .home__search input{
     width: 100%;
+    position: relative;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.home__search button{
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    margin: 2px 0 0 -20px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+
 }
 
 .home__buy-text{
     font-size: 12px;
     text-align: center;
-    width: 63%;
-    border: 1px solid red;
+    width: 100%;
+    /* border: 1px solid red; */
 }
 
-.home__nav{
+/* .home__nav{
     border: 1px solid blueviolet;
-}
+} 
 
 .home__nav-venta{
     border: 1px solid red;
@@ -48,11 +74,14 @@
 
 .home__nav-user{
     border: 1px solid red;
-}
+} */
 
 .home__burger-menu{
     text-align: center;
-    padding-top: 30px;
+    /* border: 1px solid red; */
+    display: inline;
+    width: 100%;
+    padding: 20px 0 15px 0;
 }
 
 .home__burger-menu-button{
@@ -84,9 +113,12 @@ main section article i{
     position: absolute;
     right: 20px;
     top: -15px;
-   }
-   
+}
 
+.home1 ,.home2{
+    display: flex;
+    flex-wrap: wrap;
+}
 .home__main{
     width: 90%;
     margin: auto;
@@ -140,7 +172,7 @@ footer.home{
     background-color: white;
     padding-top: 20px;
     width: 98%;
-    margin: 10px auto -14px;
+    margin: 5px auto -14px;
 }
 
 .home__footer__text {
