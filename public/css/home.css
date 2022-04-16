@@ -177,7 +177,7 @@ footer.home{
 }
 
 /* mobile */
-@media (max-width: 425px){
+@media (max-width: 599px){
     .home__article--font {
         display: none;
     }
@@ -193,7 +193,7 @@ footer.home{
 }
 
 /* tablet */
-@media (min-width: 426px){
+@media (min-width: 600px){
     .home__main{
         width: 90%;
         margin: 0 auto;
@@ -318,7 +318,7 @@ footer.home{
 
 /* desktop */
 
-@media (min-width: 769px){
+@media (min-width: 1024px){
     .home__article--font {
         display: block;
     }
