@@ -1,6 +1,7 @@
 .register__main{
-    width: 90%;
+    width: 80%;
     margin: 20px auto 50px;
+    
 }
 
 .register__main__radio{
@@ -32,10 +33,21 @@
     margin: 12px auto;
 }
 
+.register__main-buttons button{
+    border: none;
+    background-color: var(--colorCeleste);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+}
+
+
 /* tablets */
 @media (min-width: 600px){
-    register__main{
-       width: 50%;
+    
+    .register__main{
+       width: 70%;
        margin: 0 auto;
    }
    .register__main__radio {
@@ -43,5 +55,8 @@
         align-items: center;
         justify-content: space-evenly;
         width: 75%;
+    }
+    .register__main-buttons button {        
+        width: 150px;
     }
 }
