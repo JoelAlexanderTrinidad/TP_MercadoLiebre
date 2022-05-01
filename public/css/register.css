@@ -1,0 +1,62 @@
+.register__main{
+    width: 80%;
+    margin: 20px auto 50px;
+    
+}
+
+.register__main__radio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.register__main__radio input{
+    width: 10px;
+}
+
+.register__main__check input{
+    width: 10px;
+}
+.register__main__check{
+    width: 30%;
+}
+
+.register__main__section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.register__main-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 12px auto;
+}
+
+.register__main-buttons button{
+    border: none;
+    background-color: var(--colorCeleste);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+}
+
+
+/* tablets */
+@media (min-width: 600px){
+    
+    .register__main{
+       width: 70%;
+       margin: 0 auto;
+   }
+   .register__main__radio {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 75%;
+    }
+    .register__main-buttons button {        
+        width: 150px;
+    }
+}
