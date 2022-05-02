@@ -5,3 +5,6 @@ footer.home div.icono-footer{
     font-size: 2em;
     text-align: center;
 }
+div.icono-footer i:hover{
+    color: var(--colorAmarillo);
+}

@@ -1,7 +1,11 @@
+footer .login{
+
+}
 .login__main{
     width: 90%;
     margin: 0 auto;
 }
+
 .login__main button{
     border: none;
     background-color: var(--colorCeleste);
@@ -12,10 +16,32 @@
 }
 
 /* tablets */
-@media (min-width: 600px){
+@media (min-width: 768px){
     .login__main{
-        
         width: 70%;
         margin: 20px auto 50px;
+    }
+    .login__main form{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .login__main__boton{
+        width: 20%;
+        margin: 0 auto;
+    }
+    .login__main button:hover{
+        background-color: #0022AA;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .login__main form{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .login__main__boton{
+        width: 15%;
+        margin: 0 auto;
     }
 }
